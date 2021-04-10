@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_end_color"
+    tools:context=".MainActivity">
+
+
+  <TextView
+      android:id="@+id/txvFuerza"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Ingrese la fuerza en Newtons"
+      android:textColor="@color/cardview_dark_background"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.1"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      android:textSize="16sp"
+      app:layout_constraintVertical_bias="0.469" />
+
+  <TextView
+      android:id="@+id/txvArea"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Ingrese el area en metros cuadrados"
+      android:textColor="@color/cardview_dark_background"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.411"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.602" />
+
+
+  <EditText
+      android:id="@+id/txtfuer"
+      android:layout_width="125dp"
+      android:layout_height="40dp"
+      android:layout_marginEnd="40dp"
+      android:textColor="@color/cardview_dark_background"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.944"
+
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.484"></EditText>
+
+  <EditText
+      android:id="@+id/txtarea"
+      android:layout_width="125dp"
+      android:layout_height="40dp"
+      android:layout_marginEnd="140dp"
+      android:textColor="@color/cardview_dark_background"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.944"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.68"></EditText>
+
+  <TextView
+      android:id="@+id/txtTitulo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="30sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.496"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.212"
+      android:text="Calculadora de Presion"
+      android:textColor="@color/cardview_dark_background"
+      />
+
+
+  <TextView
+      android:id="@+id/txvp"
+      android:layout_width="100dp"
+      android:layout_height="50dp"
+      android:text=""
+      android:textColor="@color/cardview_dark_background"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.488"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.875" />
+
+  <Button
+      android:id="@+id/buttonc"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Calcular"
+      android:textColor="@color/cardview_dark_background"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.774" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
